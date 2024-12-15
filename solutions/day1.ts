@@ -17,7 +17,7 @@ function parserInput(input: string) {
 
 
 (() => {
-  const [list1, list2] = parserInput(fs.readFileSync(path.join(__dirname, '../..', 'input/day1/input.txt'), 'utf-8'));
+  const [list1, list2] = parserInput(fs.readFileSync(path.join(__dirname, '..', 'input/day1/input.txt'), 'utf-8'));
 
   console.log(part1(list1, list2))
   console.log(part2(list1, list2))
